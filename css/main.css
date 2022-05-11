@@ -114,8 +114,7 @@ span {
 }
 
 .carrito__col {
-    display: flex;
-    justify-content: center;
+    display: none;
 }
 
 td img {
@@ -161,10 +160,17 @@ td img {
     .header__cajaheight {
         height: 50vh;
     }
+
 }
 
 @media screen and (min-width: 992px) {
     .nav__collapse {
         justify-content: flex-end;
     }
+
+    .carrito__col {
+        display: flex;
+        justify-content: center;
+    }
+
 }
